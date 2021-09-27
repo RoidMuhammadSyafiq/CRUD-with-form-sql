@@ -10,14 +10,9 @@ $kirim=mysqli_query($mysqli,"SELECT* from tryit ORDER by nom DESC")
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   
-    <style>
-        table ,th, td{
-            border: 1px gray;
-            border-collapse: collapse;
-        }
-    </style>
 </head>
 <body>
+    //form data diri menggunakan 4 variabel
     <form action="action.php" method="post">
         <fieldset style="width: 600px;">
             <legend>FORM DATA DIRI</legend>
@@ -42,7 +37,7 @@ $kirim=mysqli_query($mysqli,"SELECT* from tryit ORDER by nom DESC")
         </fieldset>
         <br><br>
       
-        
+        //tabel output dari sql
         <table>
             <tr>
                 <td>NIK</td>
