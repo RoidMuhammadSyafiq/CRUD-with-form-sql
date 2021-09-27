@@ -1,5 +1,5 @@
 <?php
-
+//variabel yang digunakan untuk mengakses sql
 $dbhost ='localhost';
 $dbname ='tugas2';
 $dbuser='root';
